@@ -1,0 +1,54 @@
+#header {
+	background-color: #CAFAFE; 
+	padding: 10px
+}
+
+#navbar {
+	padding: 10px;
+
+}
+
+a:link, a:visited {
+	font-weight: bold;
+	color:black;
+	padding: 5px 12px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover {
+	background-color:#CAFAFE;
+}
+
+input {
+	width: 50%;
+	padding:20px;
+	border: solid 4px #CAFAFE;
+	border-radius: 12px;
+}
+
+input[type=text]:focus {
+	background-color: #CAFAFE;
+	border:none;
+}
+
+button {
+	background-color: #CAFAFE;
+	border:none;
+	padding: 20px;
+	display: inline-block;
+	font-size: 16px;
+	font-family: Times;
+	font-weight: bold;
+	border-radius: 12px;
+	transition-duration: 0.5s;
+}
+
+button:hover {
+	background-color: black;
+	color:white;
+}
+
+.image_font {
+	font-size: 12px;
+}
