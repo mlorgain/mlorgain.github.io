@@ -2,14 +2,15 @@
 <html>
 <head>
 	<title>Submit a Post</title>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 </head>
 <body>
 
-<div style="background-color: #CAFAFE; padding: 10px">
+<div id="header">
 	<h1 style=font-family:"Georgia">Happy Place NYC</h1>
 	<h3 style=font-family:"Georgia">In an ever-shifting landscape, where's your happy place in NYC?</h3>
 </div>
-<div style="padding: 10px">
+<div id="navbar">
 	<nav>
 		<a href="index.html">Home</a>
 		<a href="post.html">Post</a>
@@ -19,8 +20,18 @@
 	</nav>
 </div>
 
-<form action="">
-	
+<section>
+	<h2>Submit a Happy Place</h2>
+	<p>Share you cool spots below!</p>
+</section>
+
+<form action="post.html" method="post">
+	<div>
+		<input type="text">
+	</div>
+	<div>
+		<button type="post">Post</button>
+	</div>
 </form>
 
 </body>
