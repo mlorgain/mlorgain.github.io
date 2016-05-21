@@ -10,11 +10,12 @@ body {
 	background-color: #CAFAFE; 
 	padding: 10px;
 	font-family: Georgia;
+	border-radius: 40px;
+	padding-left: 20px;
 }
 
 #navbar {
 	padding: 10px;
-
 }
 
 #postHead {
@@ -31,6 +32,7 @@ a:link, a:visited {
 
 a:hover {
 	background-color:#CAFAFE;
+	border-radius: 40px;
 }
 
 input {
@@ -68,4 +70,11 @@ button:hover {
 
 .image_font {
 	font-size: 12px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    display: block;
+    vertical-align: text-top;
+  }
 }
