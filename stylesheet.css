@@ -1,11 +1,25 @@
-#header {
+body {
+	background-image: url("night-skyline.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	z-index: -1;
+}
+
+#headID {
 	background-color: #CAFAFE; 
-	padding: 10px
+	padding: 10px;
+	font-family: Georgia;
+	border-radius: 40px;
+	padding-left: 20px;
 }
 
 #navbar {
 	padding: 10px;
+}
 
+#postHead {
+	text-align: center;
 }
 
 a:link, a:visited {
@@ -18,11 +32,13 @@ a:link, a:visited {
 
 a:hover {
 	background-color:#CAFAFE;
+	border-radius: 40px;
 }
 
 input {
 	width: 50%;
 	padding:20px;
+	margin-left: 285px;
 	border: solid 4px #CAFAFE;
 	border-radius: 12px;
 }
@@ -37,6 +53,9 @@ button {
 	border:none;
 	padding: 20px;
 	display: inline-block;
+	position: relative;
+	left: 970px;
+	bottom: 60px;
 	font-size: 16px;
 	font-family: Times;
 	font-weight: bold;
@@ -51,4 +70,11 @@ button:hover {
 
 .image_font {
 	font-size: 12px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    display: block;
+    vertical-align: text-top;
+  }
 }
